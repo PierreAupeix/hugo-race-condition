@@ -1,0 +1,2 @@
+{{ $resource := resources.Get "asset" | resources.ExecuteAsTemplate .File . }}
+{{ $resource.Content }}

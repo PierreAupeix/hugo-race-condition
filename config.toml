@@ -1,0 +1,9 @@
+baseUrl = "/"
+disableKinds = [
+  "taxonomy",
+  "taxonomyTerm",
+  "section",
+  "RSS",
+  "sitemap",
+  "home"
+]
